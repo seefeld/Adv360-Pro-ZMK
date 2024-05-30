@@ -40,6 +40,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <60 75>;
         };
+
+        sleep {
+            bindings = <&kp LA(LG(K_SLEEP))>;
+            key-positions = <0 13>;
+        };
     };
 
     keymap {
