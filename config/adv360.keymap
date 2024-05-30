@@ -33,6 +33,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <60 75>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
